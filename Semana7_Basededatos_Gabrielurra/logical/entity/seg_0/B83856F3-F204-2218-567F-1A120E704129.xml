@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B83856F3-F204-2218-567F-1A120E704129" name="compania">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:42 UTC</createdTime>
+<generatorID>1177BB87-A409-1705-9BA9-BE067640CBA8</generatorID>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<engineerTo>
+<item key="2CD58187-42AC-530C-493A-435FD1FE3500" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id empresa" id="E5DC325B-A53D-F329-2A15-495F6A93AD44">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:42 UTC</createdTime>
+<generatorID>BF213510-6D23-D50D-12FB-E581A284FB32</generatorID>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<engineerTo>
+<item key="2CD58187-42AC-530C-493A-435FD1FE3500" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>AA092280-5F12-94C2-326C-69A0C59AB88D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre empresa" id="8CDE64B6-03B7-1F85-E789-7B68561CABC5">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:42 UTC</createdTime>
+<generatorID>233D2BC2-4560-A6E9-43C5-7F3CCA853386</generatorID>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<engineerTo>
+<item key="2CD58187-42AC-530C-493A-435FD1FE3500" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D4E315FA-8C88-1F97-FA9C-F9A469C16804</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="calle" id="F1A6EF4C-3841-CA48-D424-DA184691C715">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:42 UTC</createdTime>
+<generatorID>8C6E1036-6D26-C249-C8C7-E5C6DE60BC64</generatorID>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<engineerTo>
+<item key="2CD58187-42AC-530C-493A-435FD1FE3500" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0E140DF7-AD5E-5BA5-9DD3-B3597CCC8168</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numeracion" id="3079AA1F-93A5-41A8-D364-58434499E0D8">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:42 UTC</createdTime>
+<generatorID>80C42C91-0ADB-DA3C-0357-AA46A140A61D</generatorID>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<engineerTo>
+<item key="2CD58187-42AC-530C-493A-435FD1FE3500" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>60BC2567-7734-BC76-BE41-FA72873FB54E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="renta promedio" id="DE129359-335C-430A-03FD-B27CFA395B7A">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:42 UTC</createdTime>
+<generatorID>2E919330-A895-DB43-7DD6-C4A84F42204E</generatorID>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<engineerTo>
+<item key="2CD58187-42AC-530C-493A-435FD1FE3500" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>71C23323-2409-C68F-D8DA-CF28AD3B59AA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pct aumento" id="A9C76D3F-E5B1-531B-BDC1-CB7A092EE5B1">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:42 UTC</createdTime>
+<generatorID>58331342-52ED-2D89-CA6A-BCF19E5242C6</generatorID>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<engineerTo>
+<item key="2CD58187-42AC-530C-493A-435FD1FE3500" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>3784C0C2-1A67-8E26-D415-562340E99964</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod comuna" id="1F5677B6-23FC-E533-9762-517AD87729F4">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:42 UTC</createdTime>
+<generatorID>AEBCCF94-E5E6-B5C5-3FB2-84AC24C59505</generatorID>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<engineerTo>
+<item key="2CD58187-42AC-530C-493A-435FD1FE3500" value="true"/>
+</engineerTo>
+<referedAttribute>4C5B5B87-238D-1093-EFAE-6AEF2A98B074</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>60BC2567-7734-BC76-BE41-FA72873FB54E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod region" id="6FEA7127-259D-1064-1CF2-FFDDB928098A">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:42 UTC</createdTime>
+<generatorID>AEBCCF94-E5E6-B5C5-3FB2-84AC24C59505</generatorID>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<engineerTo>
+<item key="2CD58187-42AC-530C-493A-435FD1FE3500" value="true"/>
+</engineerTo>
+<referedAttribute>D581555D-790C-A759-8E97-7C34C83A9184</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>AA092280-5F12-94C2-326C-69A0C59AB88D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2FBB4492-80C4-A855-281B-572CF45DEFCB" name="compania pk">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:42 UTC</createdTime>
+<generatorID>B9DCCDAE-3B14-1EAE-175A-9ABBABED3D04</generatorID>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<engineerTo>
+<item key="2CD58187-42AC-530C-493A-435FD1FE3500" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E5DC325B-A53D-F329-2A15-495F6A93AD44</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="14471510-3A7E-30EF-4610-49D6FD1DDD6F" name="compania un nombre">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:42 UTC</createdTime>
+<generatorID>A1C63C06-D424-3610-20A7-89F11BBBC257</generatorID>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<engineerTo>
+<item key="2CD58187-42AC-530C-493A-435FD1FE3500" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>8CDE64B6-03B7-1F85-E789-7B68561CABC5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

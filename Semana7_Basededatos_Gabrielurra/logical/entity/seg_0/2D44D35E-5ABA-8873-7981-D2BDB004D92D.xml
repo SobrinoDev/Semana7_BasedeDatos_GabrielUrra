@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2D44D35E-5ABA-8873-7981-D2BDB004D92D" name="comuna">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:42 UTC</createdTime>
+<generatorID>32BA9C00-5D1B-E3EC-3CD3-95E718840812</generatorID>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<engineerTo>
+<item key="2CD58187-42AC-530C-493A-435FD1FE3500" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id comuna" id="4C5B5B87-238D-1093-EFAE-6AEF2A98B074">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:42 UTC</createdTime>
+<generatorID>E70AB03A-552F-700F-6C73-EFA7468408E8</generatorID>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<engineerTo>
+<item key="2CD58187-42AC-530C-493A-435FD1FE3500" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>60BC2567-7734-BC76-BE41-FA72873FB54E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comuna nombre" id="95787975-C815-30C4-EA73-984796C3D31B">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:42 UTC</createdTime>
+<generatorID>72B34F05-CE67-6F99-3D28-FCCA6EDBD643</generatorID>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<engineerTo>
+<item key="2CD58187-42AC-530C-493A-435FD1FE3500" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D4E315FA-8C88-1F97-FA9C-F9A469C16804</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod region" id="D581555D-790C-A759-8E97-7C34C83A9184">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:42 UTC</createdTime>
+<generatorID>54859AE4-7372-EE6D-A975-798E7C9C9FD5</generatorID>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<engineerTo>
+<item key="2CD58187-42AC-530C-493A-435FD1FE3500" value="true"/>
+</engineerTo>
+<referedAttribute>6FCAADB4-69AD-9AD9-4362-914656D6E2C7</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>AA092280-5F12-94C2-326C-69A0C59AB88D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EF0ECA11-1872-8BB7-2F29-110024B56CDC" name="comuna pk">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:42 UTC</createdTime>
+<generatorID>197668BE-8948-E69D-AECA-D13F8023F394</generatorID>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<engineerTo>
+<item key="2CD58187-42AC-530C-493A-435FD1FE3500" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4C5B5B87-238D-1093-EFAE-6AEF2A98B074</attributeRef>
+<attributeRef>D581555D-790C-A759-8E97-7C34C83A9184</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

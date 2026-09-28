@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="titulo" directorySegmentName="seg_0" id="A89461DB-BB18-8C61-8844-54296C66D816">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="descripcion_titulo" id="D59ECFD7-EECD-242D-10E0-CC887F76049B">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_titulo" id="EA1F1C43-534D-62CA-FE70-C1C18A52ADA8">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="titulo_pk" id="031A477F-B976-3B78-BDE1-AD605D0B8B7F">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

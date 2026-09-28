@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9580E25-A126-65D9-6C28-E313A14195CB" name="titulacion">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:42 UTC</createdTime>
+<generatorID>AFC5C9E5-9481-0695-2C44-3FB0DB4E9E60</generatorID>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<engineerTo>
+<item key="2CD58187-42AC-530C-493A-435FD1FE3500" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod titulo" id="5C979572-8A95-4972-7322-685925A48E51">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:42 UTC</createdTime>
+<generatorID>1DE0A664-4C64-37B5-E180-33BA58EB8157</generatorID>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<engineerTo>
+<item key="2CD58187-42AC-530C-493A-435FD1FE3500" value="true"/>
+</engineerTo>
+<referedAttribute>571BC5DB-4AAB-7DE1-2FA7-BBDB3C1367C8</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>033968D7-FC2A-989B-6116-5CCC53901A8F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="persona rut" id="E0A7C0D0-CB6D-D541-9EAF-85BD9E751475">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:42 UTC</createdTime>
+<generatorID>7062405E-F881-8B3B-F384-4C1009A5E2EF</generatorID>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<engineerTo>
+<item key="2CD58187-42AC-530C-493A-435FD1FE3500" value="true"/>
+</engineerTo>
+<referedAttribute>FD76A23E-7BB7-BDD6-AF08-8A8EC880CFE6</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>961F14DB-ECB6-C2C4-82FD-7934CF6262E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha titulacion" id="49154E5C-7FB8-000F-0636-BE43BC18B5AD">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:42 UTC</createdTime>
+<generatorID>4E72EDA8-432F-9F92-BE2F-03E1D56A0F2C</generatorID>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<engineerTo>
+<item key="2CD58187-42AC-530C-493A-435FD1FE3500" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>32E1413F-7E1B-9837-B5E4-8CB3A252DD5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A123454C-6CA8-DC0B-A0D9-0F9829795A41" name="titulacion pk">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:42 UTC</createdTime>
+<generatorID>11696BE5-63AB-A30C-C8CA-F6CCEE73ECD6</generatorID>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<engineerTo>
+<item key="2CD58187-42AC-530C-493A-435FD1FE3500" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5C979572-8A95-4972-7322-685925A48E51</attributeRef>
+<attributeRef>E0A7C0D0-CB6D-D541-9EAF-85BD9E751475</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

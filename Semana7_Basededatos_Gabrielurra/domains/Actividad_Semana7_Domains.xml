@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="Actividad_Semana7_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_3" id="033968D7-FC2A-989B-6116-5CCC53901A8F">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>3</dataTypeSize>
+<fileName>Actividad_Semana7_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="0E140DF7-AD5E-5BA5-9DD3-B3597CCC8168">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<fileName>Actividad_Semana7_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="32E1413F-7E1B-9837-B5E4-8CB3A252DD5A">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>Actividad_Semana7_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_4_3_0" id="3784C0C2-1A67-8E26-D415-562340E99964">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Actividad_Semana7_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="3B8F0209-0E09-3EB2-42B7-CCBFCACEC046">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>Actividad_Semana7_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_5_0_0" id="60BC2567-7734-BC76-BE41-FA72873FB54E">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Actividad_Semana7_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_10_0_0" id="71C23323-2409-C68F-D8DA-CF28AD3B59AA">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Actividad_Semana7_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_30" id="72C7006F-3937-C7F5-8CA4-6052ABD2CB99">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>30</dataTypeSize>
+<fileName>Actividad_Semana7_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_60" id="7646FBDA-07D7-C368-AC73-BE9CA9177661">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>60</dataTypeSize>
+<fileName>Actividad_Semana7_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_3_0_0" id="95BD6C70-46F9-3F58-C404-9DF4EF93A33C">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Actividad_Semana7_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_8_0_0" id="961F14DB-ECB6-C2C4-82FD-7934CF6262E0">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Actividad_Semana7_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_2_0_0" id="AA092280-5F12-94C2-326C-69A0C59AB88D">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>Actividad_Semana7_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_25" id="D4E315FA-8C88-1F97-FA9C-F9A469C16804">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>25</dataTypeSize>
+<fileName>Actividad_Semana7_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_2" id="DE2A3197-8FD8-252F-2A27-D24234855976">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>2</dataTypeSize>
+<fileName>Actividad_Semana7_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1" id="FDD07255-2334-97CF-1EA7-4E05CB2E7AA2">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>1</dataTypeSize>
+<fileName>Actividad_Semana7_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

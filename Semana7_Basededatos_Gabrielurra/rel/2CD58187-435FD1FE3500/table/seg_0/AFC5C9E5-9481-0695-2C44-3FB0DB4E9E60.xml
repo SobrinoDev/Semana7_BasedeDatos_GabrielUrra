@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFC5C9E5-9481-0695-2C44-3FB0DB4E9E60" name="titulacion">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>C0D20A9C-6881-ADC9-B143-B0D70280DE57</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_titulo" id="8706673A-5D28-D1CE-69A4-9753ED38594D">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>4386B50F-3664-8E21-7F58-C6E34FA88B80</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>033968D7-FC2A-989B-6116-5CCC53901A8F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA2C4E82-5563-43B2-C14D-101C756D89E6" referredColumn="EA1F1C43-534D-62CA-FE70-C1C18A52ADA8"/>
+</associations>
+</Column>
+<Column name="persona_rut" id="B6FB498E-7C92-5EA8-07D3-3DE0126D3704">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>99A1BA8B-290E-1C72-2252-F4D86247BB0D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>961F14DB-ECB6-C2C4-82FD-7934CF6262E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8945B2DE-D84D-8C9A-C361-81F49498CF74" referredColumn="6CB96274-88AD-B090-B72F-B68CCF9764D2"/>
+</associations>
+</Column>
+<Column name="fecha_titulacion" id="4E72EDA8-432F-9F92-BE2F-03E1D56A0F2C">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>9DBE7C29-4470-3CD6-0031-1A4AF20D2108</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>32E1413F-7E1B-9837-B5E4-8CB3A252DD5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11696BE5-63AB-A30C-C8CA-F6CCEE73ECD6" name="titulacion_pk">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>41D25BD9-FFFE-356B-DD46-723A6D945E62</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8706673A-5D28-D1CE-69A4-9753ED38594D"/>
+<colUsage columnID="B6FB498E-7C92-5EA8-07D3-3DE0126D3704"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D1411B4-9368-6C0B-977F-7FDBF624A6BC" name="titulacion_fk_personal">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6FB498E-7C92-5EA8-07D3-3DE0126D3704"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1336C7FA-BA35-2B5A-C6A9-F4FA73D7891E" name="titulacion_fk_titulo">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8706673A-5D28-D1CE-69A4-9753ED38594D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

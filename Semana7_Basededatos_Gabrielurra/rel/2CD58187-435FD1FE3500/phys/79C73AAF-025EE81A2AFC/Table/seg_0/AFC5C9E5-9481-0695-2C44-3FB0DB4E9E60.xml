@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="titulacion" directorySegmentName="seg_0" id="AFC5C9E5-9481-0695-2C44-3FB0DB4E9E60">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="fecha_titulacion" id="4E72EDA8-432F-9F92-BE2F-03E1D56A0F2C">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cod_titulo" id="8706673A-5D28-D1CE-69A4-9753ED38594D">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="persona_rut" id="B6FB498E-7C92-5EA8-07D3-3DE0126D3704">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="titulacion_fk_titulo" id="1336C7FA-BA35-2B5A-C6A9-F4FA73D7891E">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="titulacion_fk_personal" id="8D1411B4-9368-6C0B-977F-7FDBF624A6BC">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="titulacion_pk" id="11696BE5-63AB-A30C-C8CA-F6CCEE73ECD6">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

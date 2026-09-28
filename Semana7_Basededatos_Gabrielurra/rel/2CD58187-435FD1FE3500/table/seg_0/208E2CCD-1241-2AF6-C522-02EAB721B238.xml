@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="208E2CCD-1241-2AF6-C522-02EAB721B238" name="idioma">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>AA30B240-11CE-DB62-AD0D-8BAB62A069E8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_idioma" id="F62CC564-DB8E-18B1-C0EB-0201AD50D4B7">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>27397638-2D1E-086F-EEB4-7F0DF2DE883B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>95BD6C70-46F9-3F58-C404-9DF4EF93A33C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementStartWith>25</autoIncrementStartWith>
+<autoIncrementIncrementBy>3</autoIncrementIncrementBy>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="nombre_idioma" id="5AF22029-8CF8-1B78-DE0D-506FECE07789">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>B409FEBC-94E0-C2C5-12DE-44CD3760FADF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>72C7006F-3937-C7F5-8CA4-6052ABD2CB99</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F71021A-691D-BC35-7760-CA7670845C7F" name="idioma_pk">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>33332E1D-0179-3B30-80FA-9FF58981CDFF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F62CC564-DB8E-18B1-C0EB-0201AD50D4B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

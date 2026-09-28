@@ -1,0 +1,350 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A7852A6-119D-C4ED-16FF-E48D33811873" name="personal">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>F425E604-C6B3-A994-4272-DCA015A32385</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut_persona" id="6CB96274-88AD-B090-B72F-B68CCF9764D2">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>4E00012E-76F5-E17A-6023-BD2E99F70C41</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>961F14DB-ECB6-C2C4-82FD-7934CF6262E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dv_persona" id="2565EC54-6BDF-84BB-08F5-C4586B64DED9">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>9F46E7E8-E97C-D5E6-19AA-FADD8889132C</importedID>
+<constraintName>personal_ck_dv</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>FDD07255-2334-97CF-1EA7-4E05CB2E7AA2</domain>
+<listOfValues>
+<valueDef value="0" description=""/>
+<valueDef value="1" description=""/>
+<valueDef value="2" description=""/>
+<valueDef value="3" description=""/>
+<valueDef value="4" description=""/>
+<valueDef value="5" description=""/>
+<valueDef value="6" description=""/>
+<valueDef value="7" description=""/>
+<valueDef value="8" description=""/>
+<valueDef value="9" description=""/>
+<valueDef value="K" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_nombre" id="76CAAE90-9D7E-3638-20E5-6448023A0BAF">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>5514B5FF-DCD9-AF1F-07AE-F23869A25FAB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D4E315FA-8C88-1F97-FA9C-F9A469C16804</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_nombre" id="E68FC9FB-90C5-901B-8220-7294AAF3C53D">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>79AB5904-AC96-47D9-B18D-A2A6F45DD2EA</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D4E315FA-8C88-1F97-FA9C-F9A469C16804</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_apellido" id="45EAA9B3-2F98-4FEB-56F4-4FE91935DB42">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>70AA8C94-0116-C747-531A-557A9C8CE19C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D4E315FA-8C88-1F97-FA9C-F9A469C16804</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_apellido" id="5E225616-9734-616A-CC3E-46BCBDE65A3E">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>9E4C8451-966B-0C2B-8EF9-A8E1B2AAC3F1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D4E315FA-8C88-1F97-FA9C-F9A469C16804</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_contratacion" id="38FD048A-5CAA-29AA-9969-8948B39BA947">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>7199A5C5-A339-0CEF-5667-254E27503454</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>32E1413F-7E1B-9837-B5E4-8CB3A252DD5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_nacimiento" id="172561B7-60F9-3B97-32E4-943DF19EC570">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>DE2E27B4-50E1-999C-AEC7-7D4CEE14D44F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>32E1413F-7E1B-9837-B5E4-8CB3A252DD5A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="DCE56BB1-D01E-9E3B-9DF7-676A205A603B">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>A722B4A4-3F63-8FC6-C01B-EC99161ADAC5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3B8F0209-0E09-3EB2-42B7-CCBFCACEC046</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="calle" id="FAB2B72D-5E69-7AB9-7896-23B53F5D5B9E">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>55B80201-0353-8DAB-D34C-EDA72EB7EE1E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0E140DF7-AD5E-5BA5-9DD3-B3597CCC8168</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numeracion" id="E0DC9A1D-38EF-F5D9-04A9-DF44CDC89AAD">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>00405B42-2B9B-CA09-9390-F442DEA9E9C4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>60BC2567-7734-BC76-BE41-FA72873FB54E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sueldo" id="FE658D54-3BA7-D482-4D3B-EAF3DA7F42E1">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>DBEACACD-CB40-9A44-A95D-8946B4780B0E</importedID>
+<constraintName>personal_ck_sueldo</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>961F14DB-ECB6-C2C4-82FD-7934CF6262E0</domain>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 12cR2" definition="sueldo &gt;= 450000"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_comuna" id="6B91D8DE-2CC7-9B45-F444-5E0D381561D2">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>56706BC5-AD32-709E-2B34-49DDD1DE47B9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>60BC2567-7734-BC76-BE41-FA72873FB54E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E3CC63B-D87C-1B18-8B91-EC91A51BE0CB" referredColumn="E70AB03A-552F-700F-6C73-EFA7468408E8"/>
+</associations>
+</Column>
+<Column name="cod_region" id="52AF41B7-3335-9B49-2377-3F29B3D19260">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>72FBFC72-50D1-BCBE-2B5E-DFB840FC4EC5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>AA092280-5F12-94C2-326C-69A0C59AB88D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E3CC63B-D87C-1B18-8B91-EC91A51BE0CB" referredColumn="5C32D454-413C-B425-BDEC-70A1298967FD"/>
+</associations>
+</Column>
+<Column name="cod_genero" id="EE47E148-136F-FA84-A39D-820D88425B8B">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>99045FEA-49A7-60EE-BD7C-1150CD344075</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>033968D7-FC2A-989B-6116-5CCC53901A8F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07A3C735-36AB-C5F9-68B5-A6E0328F9D01" referredColumn="8B3DB153-72D3-D96D-068B-046BABCCB4DC"/>
+</associations>
+</Column>
+<Column name="cod_estado_civil" id="ABE1260A-4FC0-9AE8-ADEB-8F133BAD3BA5">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>9EBBFA45-D1C6-5A7C-3CB9-AE3074EC805F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DE2A3197-8FD8-252F-2A27-D24234855976</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1486B6C3-EDCF-0F93-9AC0-141FF246D2DB" referredColumn="92CC1FBD-F7C7-00B5-26BC-FFDD74D7615D"/>
+</associations>
+</Column>
+<Column name="cod_empresa" id="EDE3188E-6D2F-F5D2-9C0F-3EAB87A9EEF2">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>C6B8E131-835F-80E5-5893-3442C8D9489C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>AA092280-5F12-94C2-326C-69A0C59AB88D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D0C1718-3F15-0A1A-5D56-D680D316DA08" referredColumn="BF213510-6D23-D50D-12FB-E581A284FB32"/>
+</associations>
+</Column>
+<Column name="encargado_rut" id="A7FDFAA5-1F0C-0B87-2C2E-47166DD7E287">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>9F666254-BF36-C15D-6774-1590B8434343</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>961F14DB-ECB6-C2C4-82FD-7934CF6262E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA7B0743-30B8-32A7-3BCC-C51F5414D8D5" referredColumn="6CB96274-88AD-B090-B72F-B68CCF9764D2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="34722C2D-13D3-674B-84CD-58B3C57EB081" name="personal_pk">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>FADE5332-F295-A7B1-00C8-57D04D6DFCDA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CB96274-88AD-B090-B72F-B68CCF9764D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49261A1E-D5C5-243F-AB3C-348D6B41B409" name="personal_un_email">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>CD3AC4FD-C210-CB78-7A58-79BE6C33F113</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCE56BB1-D01E-9E3B-9DF7-676A205A603B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9AD7DE79-2FF2-1F10-86C8-50537CE060BA" name="personal_fk_compania">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDE3188E-6D2F-F5D2-9C0F-3EAB87A9EEF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="556509FD-94CE-2650-EB36-448F4B4F531A" name="personal_fk_comuna">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B91D8DE-2CC7-9B45-F444-5E0D381561D2"/>
+<colUsage columnID="52AF41B7-3335-9B49-2377-3F29B3D19260"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A344AA69-0003-2C22-11C8-FCF8EEE161E0" name="personal_fk_estado_civil">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABE1260A-4FC0-9AE8-ADEB-8F133BAD3BA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF022146-FAF0-EB15-A5AA-7F17B6B09933" name="personal_fk_genero">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE47E148-136F-FA84-A39D-820D88425B8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="544BE14C-219B-BF17-2870-A3876D0189EB" name="personal_fk_personal">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7FDFAA5-1F0C-0B87-2C2E-47166DD7E287"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

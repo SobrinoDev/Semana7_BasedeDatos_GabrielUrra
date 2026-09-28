@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="936BC7D8-D296-53D0-1BFC-FD479879083B" containerWithKeyObject="C793DB15-047F-3BC2-F475-F648CA753AC2" localFKIndex="CDD68218-0065-7BFC-E4FE-510F381033D2" name="dominio_fk_personal">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>6BDE80C5-2B7B-7F5B-0DC8-38A4345EEE26</importedID>
+<referredTableLongName>personal</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9A7852A6-119D-C4ED-16FF-E48D33811873</referredTableID>
+<keyObject>34722C2D-13D3-674B-84CD-58B3C57EB081</keyObject>
+<referredKeyID>34722C2D-13D3-674B-84CD-58B3C57EB081</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rut_persona</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

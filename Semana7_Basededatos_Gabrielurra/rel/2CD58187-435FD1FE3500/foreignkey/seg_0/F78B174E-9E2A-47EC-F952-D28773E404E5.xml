@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F78B174E-9E2A-47EC-F952-D28773E404E5" containerWithKeyObject="32BA9C00-5D1B-E3EC-3CD3-95E718840812" localFKIndex="C6A2710F-1719-7CF8-FE1E-75706F2D4620" name="comuna_fk_region">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>2EC7201D-AE24-AA3E-1800-25A4DFF6BA8F</importedID>
+<referredTableLongName>region</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CD8BB2E0-3FE7-0B8B-49EF-659FA90B0939</referredTableID>
+<keyObject>65A853A5-EE9E-D98A-E3F3-54469BB3B3A8</keyObject>
+<referredKeyID>65A853A5-EE9E-D98A-E3F3-54469BB3B3A8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_region</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

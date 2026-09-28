@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5F855E4E-EEF3-D4C2-A7AC-A90439128C5D" containerWithKeyObject="C793DB15-047F-3BC2-F475-F648CA753AC2" localFKIndex="7D386566-03FD-39D5-8318-8CB821166D7E" name="dominio_fk_idioma">
+<sourceDDLFile>Actividad_Semana7.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-09-28 19:31:29 UTC</createdTime>
+<ownerDesignName>Semana7_Basededatos_Gabrielurra</ownerDesignName>
+<importedID>54D85A3D-0D1A-C5B0-9883-61033A6F122B</importedID>
+<referredTableLongName>idioma</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>208E2CCD-1241-2AF6-C522-02EAB721B238</referredTableID>
+<keyObject>3F71021A-691D-BC35-7760-CA7670845C7F</keyObject>
+<referredKeyID>3F71021A-691D-BC35-7760-CA7670845C7F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_idioma</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
